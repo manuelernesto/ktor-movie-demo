@@ -1,11 +1,8 @@
-DELETE http://localhost:8080/api/movies/1
+GET http://localhost:8080/api/movies
 Accept: application/json
 
 ###
-GET http://localhost:8080/api/movies/10
-Accept: application/json
 
-###
 POST http://localhost:8080/api/movies
 Content-Type: application/json
 
@@ -15,8 +12,21 @@ Content-Type: application/json
   "year": 2008,
   "genre": "Action"
 }
+
 ###
-GET http://localhost:8080/api/movies
+
+
+GET http://localhost:8080/api/movies/10
+Accept: application/json
+
+
+
+###
+
+
+
+DELETE http://localhost:8080/api/movies/1
 Accept: application/json
 
 ###
+
