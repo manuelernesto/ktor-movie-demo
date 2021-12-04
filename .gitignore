@@ -2,3 +2,9 @@
 .idea/
 .gradle
 .gradle/
+
+.dcignore
+
+build
+build/
+
